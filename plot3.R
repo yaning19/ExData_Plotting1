@@ -11,8 +11,7 @@ data$Sub_metering_1<-as.numeric(as.character(data$Sub_metering_1))
 data$Sub_metering_2<-as.numeric(as.character(data$Sub_metering_2))
 data$Sub_metering_3<-as.numeric(as.character(data$Sub_metering_3))
 
-Sub_metering<-data[,7:9]
-g<-gl(3,2880,labels = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+
 ##plot
 
 png("plot3.png",480,480)
